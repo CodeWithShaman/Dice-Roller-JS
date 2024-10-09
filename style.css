@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-image: url("./ludo-board-game-different-perspective_23-2148670513.avif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    /* background-image: linear-gradient(to top, #09203f 0%, #537895 100%); */
+    /* background-image: linear-gradient(to right, #434343 0%, black 100%); */
+    /* height: 100vh; */
+    /* display: flex; */
+    /* justify-content: center; */
+    /* background-image: linear-gradient(to top, #a3bded 0%, #6991c7 100%); */
+}
+.container{
+    width: 55%;
+    /* height: 500px; */
+    /* border: 2px solid red; */
+    float: right;
+    margin-top: 100px;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+#change{
+    padding: 8px 25px;
+    background-color: #00020390;
+    border-radius: 5px;
+    outline: none;
+    color: antiquewhite;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    margin-top: 50px;
+    /* margin-left: 500px; */
+}
+h1{
+    color: #ffffff;
+    text-shadow: 1px 1px 15px rgb(255, 0, 0);
+    /* text-align: center; */
+    /* margin-to/p: 50px; */
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+#xlable{
+    text-align: center;
+    /* border: 2px solid red; */
+    padding: 10px 18px;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    font-size: 23px;
+    margin-left: 30px;
+    margin-top: 60px;
+    filter: drop-shadow(-2px -2px 20px rgba(0, 0, 0, 0.835));
+    /* margin-top: 140px; */
+    
+    /* margin-left: 500px; */
+    /* margin-top: 250px; */
+    /* display: grid; */
+    /* place-items:/ center; */
+}
+#change:hover{
+   background-color: rgb(19, 79, 79);   
+}
